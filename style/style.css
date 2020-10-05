@@ -1,0 +1,47 @@
+            @font-face {
+                font-family: Champions-Bold;
+                src: url(./fonts/Champions-Bold.otf);
+            }
+            
+            @font-face {
+                font-family: Champions-Regular;
+                src: url(./fonts/Champions-Regular.otf);
+            }
+            
+            body {
+                background-color: rgb(0, 110, 255);
+            }
+            
+            #contents {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            #contents td {
+                border: 0px solid #ddd;
+                background-color: #fff;
+                padding: 8px;
+                padding-top: 12px;
+                padding-bottom: 18px;
+                text-align: center;
+                color: #000000;
+                font-family: Champions-Regular;
+            }
+            
+            #contents th {
+                border: 0px solid #ddd;
+                padding: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: center;
+                color: white;
+                font-family: Champions-Bold;
+            }
+            
+            #contents th:nth-child(even) {
+                background-color: rgb(16, 216, 149);
+            }
+            
+            #contents th:nth-child(odd) {
+                background-color: rgb(1, 23, 29);
+            }
