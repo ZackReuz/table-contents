@@ -9,16 +9,20 @@
             }
             
             body {
-                background-color: rgb(0, 110, 255);
+                background-color: rgb(224, 238, 252);
             }
             
             #contents {
                 border-collapse: collapse;
                 width: 100%;
+                margin: 40px;
+            }
+            
+            #contents:hover {
+                cursor: auto;
             }
             
             #contents td {
-                border: 0px solid #ddd;
                 background-color: #fff;
                 padding: 8px;
                 padding-top: 12px;
@@ -44,4 +48,22 @@
             
             #contents th:nth-child(odd) {
                 background-color: rgb(1, 23, 29);
+            }
+            
+            #button {
+                background-color: rgb(224, 238, 252);
+                font-family: Champions-Regular;
+                padding: 15px 40px;
+                border-radius: 30px;
+                border: solid 2px rgb(13, 245, 168);
+                font-size: 15px;
+                margin-left: 40px;
+                transition-duration: 0.4s;
+            }
+            
+            #button:hover {
+                transition-duration: 0.4s;
+                color: #fff;
+                background-color: rgb(3, 250, 168);
+                cursor: pointer;
             }
